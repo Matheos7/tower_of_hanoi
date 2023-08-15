@@ -80,6 +80,9 @@ def display_towers(towers):
 
 
 def display_disk(width):
+    """
+    Function used by display_towers. Prints single row/disk.
+    """
     empty_space = " " * (TOTAL_DISKS - width)
 
     if width == 0:
